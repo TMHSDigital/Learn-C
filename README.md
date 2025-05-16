@@ -1,21 +1,22 @@
-# 🚀 Learn-C: Modern Password Generator
+# Learn-C: Modern Password Generator
 
-![Banner](step-1.png)
-
-A beautiful, feature-rich, native Windows password generator built in C (Win32 API). Fast, portable, and easy to hack on.
-
----
-
-## ✨ Why use this?
-- ⚡ **Blazing fast** native Windows app
-- 🛠️ **No dependencies** (just GCC/MinGW)
-- 🖥️ **Modern, polished GUI**
-- 🔒 **Strong, customizable passwords**
-- 🧑‍💻 **Great demo for C/Win32 GUI programming**
+[![Build](https://img.shields.io/badge/build-passing-brightgreen)](https://github.com/TMHSDigital/Learn-C)
+[![License](https://img.shields.io/badge/license-MIT-blue)](LICENSE)
+[![Platform](https://img.shields.io/badge/platform-Windows%2010+-lightgrey)](#)
 
 ---
 
-## 🛠️ Prerequisites
+> **Why use this?**
+>
+> - **Blazing fast** native Windows app
+> - **No dependencies** (just GCC/MinGW)
+> - **Modern, polished GUI**
+> - **Strong, customizable passwords**
+> - **Great demo for C/Win32 GUI programming**
+
+---
+
+## Prerequisites
 - **GCC/MinGW**: Install [MinGW-w64](https://www.mingw-w64.org/) and add its `bin` directory to your PATH
 - **make** (optional): For Makefile support, install make (e.g., from ezwinports, MSYS2, or GnuWin32) and add to PATH
 - **comctl32.dll**: Standard on Windows, but you must link with `-lcomctl32`
@@ -24,24 +25,24 @@ A beautiful, feature-rich, native Windows password generator built in C (Win32 A
 
 ---
 
-## 🎯 Features
-- 🪟 Native Windows GUI (Win32 API)
-- 🖋️ Modern Segoe UI font and grouped layout
-- 🖼️ Custom app icon (C-icon.ico)
-- 💡 Tooltips for all controls
-- ⌨️ Keyboard shortcuts
-- 📋 Copy to clipboard
-- 🟢 Password strength indicator (color-coded)
-- 🧩 Select which character sets to include
-- 🔢 Generate multiple passwords at once
-- 💾 Remembers last settings
-- 🪟 Window centers on startup
-- 🗨️ About dialog (F1)
-- 🏷️ Status bar for feedback
+## Features
+- Native Windows GUI (Win32 API)
+- Modern Segoe UI font and grouped layout
+- Custom app icon (`C-icon.ico`)
+- Tooltips for all controls
+- Keyboard shortcuts
+- Copy to clipboard
+- Password strength indicator (color-coded)
+- Select which character sets to include
+- Generate multiple passwords at once
+- Remembers last settings
+- Window centers on startup
+- About dialog (F1)
+- Status bar for feedback
 
 ---
 
-## ⌨️ Keyboard Shortcuts
+## Keyboard Shortcuts
 | Shortcut   | Action                  |
 |-----------|-------------------------|
 | Enter     | Generate password(s)    |
@@ -50,7 +51,7 @@ A beautiful, feature-rich, native Windows password generator built in C (Win32 A
 
 ---
 
-## 🏗️ How to Build
+## How to Build
 1. **Convert your icon:**
    - Convert `C-icon.jpg` to `C-icon.ico` (use any free online converter)
    - Place `C-icon.ico` in the project directory
@@ -65,7 +66,7 @@ A beautiful, feature-rich, native Windows password generator built in C (Win32 A
 
 ---
 
-## 🧑‍💻 Usage
+## Usage
 - Set password length and count
 - Select which character sets to include
 - Click **Generate** or press **Enter**
@@ -77,7 +78,7 @@ A beautiful, feature-rich, native Windows password generator built in C (Win32 A
 
 ---
 
-## 📸 Screenshots
+## Screenshots
 <table>
 <tr>
 <td align="center"><b>Default view</b><br><img src="step-1.png" width="350"></td>
@@ -87,4 +88,4 @@ A beautiful, feature-rich, native Windows password generator built in C (Win32 A
 
 ---
 
-Created by [TMHSDigital](https://github.com/TMHSDigital)
+_Created by [TMHSDigital](https://github.com/TMHSDigital)_
